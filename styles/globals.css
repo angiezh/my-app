@@ -1,0 +1,35 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: azure;
+}
+
+h1 {
+    color: cornflowerblue;
+}
+
+hr {
+    margin: 5px;
+}
+
+#container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+#top {
+    text-align: center;
+}
+
+#bottom {
+    text-align: center;
+}
+
+#cute-bunny {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+
+}
