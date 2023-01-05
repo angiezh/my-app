@@ -1,18 +1,47 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: "Roboto", sans-serif;
-    background-color: azure;
+    font-family: "Jost", sans-serif;
+    background-color: rgb(202, 220, 247);
 }
 
 h1 {
-    color: cornflowerblue;
+    color: black;
+    text-align: center;
+}
+
+h2 {
+    margin: 10px;
+}
+
+p{
+    font-size: 24px;
+    line-height: 40px;
+    
+}
+
+bottom {
+    font-size: 24px;
+    line-height: 40px;
 }
 
 hr {
     margin: 5px;
 }
 
+.project-box{
+    border: 1px solid black;
+    padding: 48px;
+    padding-bottom: 15px;
+    border-radius: 16px;
+    margin-bottom: 32px;
+    margin-right: 16px;
+    width: 100%;
+}
+
+.project-box img {
+    width: 100%;
+}
 #container {
     max-width: 700px;
     margin: 0 auto;
@@ -21,15 +50,21 @@ hr {
 
 #top {
     text-align: center;
+    margin: 64px 10px 0;
 }
 
-#bottom {
+#middle {
     text-align: center;
+    
 }
 
-#cute-bunny {
+#angie-z {
     width: 200px;
     height: 200px;
-    border-radius: 50px;
+    border-radius: 100px;
 
+}
+
+#flex-container {
+    display: flex;
 }
